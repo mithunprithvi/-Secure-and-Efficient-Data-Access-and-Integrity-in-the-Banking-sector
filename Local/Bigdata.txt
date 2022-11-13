@@ -1,0 +1,7 @@
+Big Data is a phrase used to mean a massive volume of both structured and unstructured data 
+that is so large it is difficult to process using traditional database and software techniques. 
+In most enterprise scenarios the volume of data is too big or it moves too fast or it 
+exceeds current processing capacity.Big Data is a phrase used to mean a massive volume of both structured 
+and unstructured data that is so large it is difficult to process using traditional database and software 
+techniques. In most enterprise scenarios the volume of data is too big or it moves too fast or it exceeds 
+current processing capacity.

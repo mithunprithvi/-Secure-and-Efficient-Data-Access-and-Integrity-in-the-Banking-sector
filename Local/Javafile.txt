@@ -1,0 +1,81 @@
+  <%@ page import="java.util.*" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Exploit a Corporate Business Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Exploit Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css7/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link href="css7/style.css" type="text/css" rel="stylesheet" media="all"> 
+<link href="css7/font-awesome.css" rel="stylesheet"> 
+ <link rel="stylesheet" href="css7/jquery.gallery.css">
+<script src="js7/jquery-2.2.3.min.js"></script> 
+<link href="//fonts4.googleapis.com/css?family=Cormorant+Upright:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts4.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"> 
+</head>
+
+<%
+Random r=new Random(); 
+
+		 String key2="ABCDE12345";
+		 					char c5=key2.charAt(r.nextInt(key2.length()));
+		 					char c6=key2.charAt(r.nextInt(key2.length()));
+		 					char c7=key2.charAt(r.nextInt(key2.length()));
+		 					char c8=key2.charAt(r.nextInt(key2.length()));
+		 					char c9=key2.charAt(r.nextInt(key2.length()));
+		 					String t6=""+c5+""+c6+""+c7+""+c8+""+c9; %>
+		 					
+		 					
+<body> 
+	<div class="w3ls-banner">
+		<div class="w3lsbanner-info">
+			<div class="header">
+				<div class="container">
+					<div class="header-left">
+						<div class="w3layouts-logo">
+							<h1>
+								<a href="#">KEYWORD</a>
+							</h1>
+						</div>
+					</div>
+			
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										
+										<li>
+											<div class="w3ls-text">
+												
+                 <form action = "Upload" method ="post" enctype = "multipart/form-data">
+              <font color="white"><input  type = "file" name = "file" size = "50" /></font> 
+              <br>
+              <label style="font-family:Times new roman; color:white; font-size:20px;">Key</label>&nbsp;&nbsp;<input type="text" name="key" value=<%=t6%>>
+         &nbsp;&nbsp;<input style="font-family:Times new roman; font-size:18px;" type = "submit" value = "Upload File" />
+      </form>
+
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js7/responsiveslides.min.js"></script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div>
+</body>
+</html>
